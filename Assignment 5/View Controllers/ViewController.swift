@@ -114,7 +114,7 @@ class ViewController: UIViewController {
         vSV.translatesAutoresizingMaskIntoConstraints = false
         vSV.alignment = .fill
         vSV.distribution = .fillProportionally
-        vSV.spacing = 40
+        vSV.spacing = 30
         vSV.backgroundColor = UIColor(red: 52/255, green: 0/255, blue: 156/255, alpha: 1)
         vSV.axis = .vertical
         return vSV
@@ -153,7 +153,7 @@ class ViewController: UIViewController {
             button.trailingAnchor.constraint(equalTo: verticalSV.trailingAnchor, constant: -100),
         ])
         
-        welcomeLabel.setTextFieldWidthAndHeight(height: 0.2, width: 1, equalTo: verticalSV)
+        welcomeLabel.setTextFieldWidthAndHeight(height: 0.1, width: 1, equalTo: verticalSV)
         textField.setTextFieldWidthAndHeight(height: 0.05, width: 0.6, equalTo: verticalSV)
         calculatedMoneyLabel.setTextFieldWidthAndHeight(height: 0.1, width: 1, equalTo: verticalSV)
         totalAmountLabel.setTextFieldWidthAndHeight(height: 0.05, width: 1, equalTo: verticalSV)
